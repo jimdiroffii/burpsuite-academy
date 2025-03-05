@@ -1,0 +1,5 @@
+# BurpSuite Academy - Notes and Code
+
+While working through the BurpSuite Academy in pursuit of a BurpSuite Certified Practictioner certificate, I found the need to occasionally use solutions outside of BurpSuite. This is most likely due to issues with the labs, which aren't common, but do exist. I also keep extensive notes locally, and may work on pushing some, or all, of those into this repo. 
+
+The first upload is a Python script that completes the lab [Authentication Bypass Via Encryption Oracle](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-encryption-oracle). In Burp, the necessary cookies get removed when attempting to use Repeater, so I just scripted out the solution. Feel free to use the script to solve your own lab if you are also having trouble. The only value that needs to be updated is the `base_url`, which changes with each new lab instance. Otherwise, just run the script and the lab is completed in a few moments. The script closely follows the posted solution, and I encourage you to walk through it. 
